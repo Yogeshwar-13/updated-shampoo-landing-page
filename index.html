@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aurelia Haircare - Elevate Your Hair Ritual</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="root">
+      <!-- Hero Section -->
+      <section id="hero" class="hero">
+        <div class="hero__background"></div>
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+          <h1 class="hero__tagline">
+            Elevate Your Hair Ritual with Nature's Finest
+          </h1>
+          <button
+            class="btn btn--primary hero__cta"
+            onclick="scrollToSection('about')"
+          >
+            Discover More
+          </button>
+        </div>
+      </section>
+
+      <!-- Achievements Section -->
+      <section id="achievements" class="achievements">
+        <div class="container">
+          <h2 class="section-title">Our Achievements</h2>
+          <div class="achievements__grid">
+            <div class="achievement-item fade-in">
+              <div class="achievement-item__content">
+                <h3>Over 1 million bottles sold</h3>
+              </div>
+            </div>
+            <div class="achievement-item fade-in">
+              <div class="achievement-item__content">
+                <h3>Dermatologist-recommended</h3>
+              </div>
+            </div>
+            <div class="achievement-item fade-in">
+              <div class="achievement-item__content">
+                <h3>100% recyclable packaging</h3>
+              </div>
+            </div>
+            <div class="achievement-item fade-in">
+              <div class="achievement-item__content">
+                <h3>Winner of Beauty Innovation Award 2024</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Reviews Section -->
+      <section id="reviews" class="reviews">
+        <div class="container">
+          <h2 class="section-title">What Our Customers Say</h2>
+          <div class="reviews__grid">
+            <div class="review-card fade-in">
+              <img
+                src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=634&q=80"
+                alt="Sofia Martinez"
+                class="review-card__avatar"
+              />
+              <div class="review-card__content">
+                <p class="review-card__text">
+                  "My hair has never felt this soft and vibrant. Truly
+                  transformative."
+                </p>
+                <h4 class="review-card__name">Andrea</h4>
+              </div>
+            </div>
+            <div class="review-card fade-in">
+              <img
+                src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=634&q=80"
+                alt="Liam Chen"
+                class="review-card__avatar"
+              />
+              <div class="review-card__content">
+                <p class="review-card__text">
+                  "A luxurious experience with every wash, and the scent is
+                  divine."
+                </p>
+                <h4 class="review-card__name">Dheeraj</h4>
+              </div>
+            </div>
+            <div class="review-card fade-in">
+              <img
+                src="https://images.unsplash.com/photo-1547425260-76bcadfb4f2c?auto=format&fit=crop&w=634&q=80"
+                alt="Amelia Dupont"
+                class="review-card__avatar"
+              />
+              <div class="review-card__content">
+                <p class="review-card__text">
+                  "Knowing it's clean beauty makes me love it even more."
+                </p>
+                <h4 class="review-card__name">Yogeshwar</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="about">
+        <div class="container">
+          <div class="about__grid">
+            <div class="about__image">
+              <img
+                src="https://pplx-res.cloudinary.com/image/upload/v1754573225/pplx_project_search_images/ea72d6d2cf9d9260781ddc91a29a95e19778a892.jpg"
+                alt="Premium amber glass shampoo bottles on bathroom shelf"
+                class="about__img"
+              />
+            </div>
+            <div class="about__content">
+              <h2 class="about__heading">Our Commitment to deliver Beauty</h2>
+              <p class="about__text">
+                At Your Haircare, we believe that luxury should never compromise
+                wellness . Our formulas harness plant-derived actives are free
+                from sulfates and silicones, blended in 100% recyclable
+                packaging to deliver salon-quality results with a conscience.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+        <div class="container">
+          <div class="footer__content">
+            <h3 class="footer__brand">Your Haircare</h3>
+            <p class="footer__copyright">
+              &copy; 2025 Your Haircare. All rights reserved.
+            </p>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
